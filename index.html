@@ -1,43 +1,79 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Comstex | Home</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Comstex - Enterprise Network Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header class="header">
-    <div class="logo-container">
-      <img src="assets/images/logo-comstex.png" alt="Comstex Logo" class="logo" />
-      <img src="assets/images/logo-comstex.png" alt="Alternate Logo" class="logo secondary" />
+  <header class="navbar">
+    <div class="logo-area">
+      <img src="assets/logo1.png" alt="Comstex Logo" class="logo" />
+      <img src="assets/logo2.png" alt="Alternative Logo" class="logo secondary-logo" />
     </div>
-    <nav class="nav">
-      <ul>
+    <nav>
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="pages/about.html">About</a></li>
-        <li><a href="pages/products.html">Products</a></li>
-        <li><a href="pages/support.html">Support</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cisco.html">Cisco</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="hero">
-      <h1>Welcome to Comstex</h1>
-      <p>Competence. Stability. Experience.</p>
-    </section>
-    <section class="intro">
-      <h2>Our Mission</h2>
-      <p>Comstex delivers high-performance telecommunication solutions tailored for global business needs.</p>
-    </section>
-    <section class="cta">
-      <a href="pages/products.html" class="btn">Explore Products</a>
-    </section>
-  </main>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Reliable Enterprise Networking</h1>
+      <p class="fade-in delay-1">Comstex delivers high-performance IT infrastructure for modern businesses.</p>
+      <a href="products.html" class="btn-primary fade-in delay-2">Explore Products</a>
+    </div>
+  </section>
+
+  <section class="about-preview">
+    <div class="container grid-2 fade-in">
+      <div>
+        <h2>About Comstex</h2>
+        <p>With decades of experience in enterprise-level IT solutions, Comstex provides secure, scalable, and energy-efficient networking systems for companies around the globe. Our commitment to innovation drives business success.</p>
+        <p>We specialize in systems integration, cloud networking, and edge infrastructure. As a trusted partner for government, banking, logistics, and industrial clients, we ensure your networks are always online and optimized.</p>
+      </div>
+      <img src="assets/office.jpg" alt="Modern office" class="image-shadow" />
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container grid-3 fade-in">
+      <div class="card">
+        <h3>Global Reach</h3>
+        <p>We serve clients in over 40 countries through an extensive logistics and partner network.</p>
+      </div>
+      <div class="card">
+        <h3>Scalable Solutions</h3>
+        <p>Our modular products grow with your business, reducing future integration costs.</p>
+      </div>
+      <div class="card">
+        <h3>Certified Expertise</h3>
+        <p>Our team holds certifications from Cisco, Juniper, Fortinet, and other major vendors.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section fade-in delay-1">
+    <div class="container">
+      <h2>Let's Build the Network of Tomorrow</h2>
+      <a href="contact.html" class="btn-secondary">Get in Touch</a>
+    </div>
+  </section>
+
   <footer>
-    <p>&copy; 2025 Comstex. All rights reserved.</p>
+    <div class="footer-content">
+      <p>© 2025 Comstex. All rights reserved.</p>
+      <p>Am Wall 22, 14979 Grossbeeren, Germany | +49 30 2325 8 230</p>
+    </div>
   </footer>
 </body>
 </html>
