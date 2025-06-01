@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Comstex - Enterprise Network Solutions</title>
+  <title>Comstex – Advanced Telecommunications Solutions</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo-area">
-      <img src="assets/logo1.png" alt="Comstex Logo" class="logo" />
-      <img src="assets/logo2.png" alt="Alternative Logo" class="logo secondary-logo" />
+  <header class="header">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="https://www.comstex.com/wp-content/uploads/2023/06/full-comstex-png-1.png" alt="Comstex Logo" class="logo">
+      </a>
+      <a href="index.html">
+        <img src="https://img.recraft.ai/JIKLs-jYX_Bjegx1N5Cq8v5C1aDvONHdNDLvbBDIiU/rs:fit:2048:1024:0/q:95/g:no/plain/abs://prod/images/7eed48a4-b9cb-48f6-900d-80aad897f446@jpg" alt="Alternate Logo" class="logo logo-alt">
+      </a>
     </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="cisco.html">Cisco</a></li>
@@ -26,54 +29,55 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1 class="fade-in">Reliable Enterprise Networking</h1>
-      <p class="fade-in delay-1">Comstex delivers high-performance IT infrastructure for modern businesses.</p>
-      <a href="products.html" class="btn-primary fade-in delay-2">Explore Products</a>
-    </div>
-  </section>
+  <main class="main-content">
+    <section class="hero">
+      <h1>Leading Edge Telecommunications Infrastructure</h1>
+      <p>Comstex delivers powerful and scalable solutions for enterprise and data center networking, helping you stay connected in a digital world.</p>
+      <a href="products.html" class="btn-primary">Explore Products</a>
+    </section>
 
-  <section class="about-preview">
-    <div class="container grid-2 fade-in">
-      <div>
-        <h2>About Comstex</h2>
-        <p>With decades of experience in enterprise-level IT solutions, Comstex provides secure, scalable, and energy-efficient networking systems for companies around the globe. Our commitment to innovation drives business success.</p>
-        <p>We specialize in systems integration, cloud networking, and edge infrastructure. As a trusted partner for government, banking, logistics, and industrial clients, we ensure your networks are always online and optimized.</p>
+    <section class="features">
+      <div class="feature-card">
+        <h2>Advanced Hardware</h2>
+        <p>We provide top-tier telecom and network equipment with global delivery, ensuring quality and performance every time.</p>
       </div>
-      <img src="assets/office.jpg" alt="Modern office" class="image-shadow" />
-    </div>
-  </section>
+      <div class="feature-card">
+        <h2>Consulting & Support</h2>
+        <p>Comstex offers tailored support, integration services and long-term technical partnerships to optimize your infrastructure.</p>
+      </div>
+      <div class="feature-card">
+        <h2>Global Reach</h2>
+        <p>Our clients span the globe — from carriers and integrators to hosting companies and banking institutions.</p>
+      </div>
+    </section>
 
-  <section class="features">
-    <div class="container grid-3 fade-in">
-      <div class="card">
-        <h3>Global Reach</h3>
-        <p>We serve clients in over 40 countries through an extensive logistics and partner network.</p>
-      </div>
-      <div class="card">
-        <h3>Scalable Solutions</h3>
-        <p>Our modular products grow with your business, reducing future integration costs.</p>
-      </div>
-      <div class="card">
-        <h3>Certified Expertise</h3>
-        <p>Our team holds certifications from Cisco, Juniper, Fortinet, and other major vendors.</p>
-      </div>
-    </div>
-  </section>
+    <section class="cta">
+      <h2>Need help choosing equipment?</h2>
+      <p>Our experts are here to guide you. Get in touch for tailored advice and bulk pricing on enterprise-grade telecom solutions.</p>
+      <a href="contact.html" class="btn-secondary">Contact Us</a>
+    </section>
+  </main>
 
-  <section class="cta-section fade-in delay-1">
-    <div class="container">
-      <h2>Let's Build the Network of Tomorrow</h2>
-      <a href="contact.html" class="btn-secondary">Get in Touch</a>
-    </div>
-  </section>
-
-  <footer>
+  <footer class="footer">
     <div class="footer-content">
-      <p>© 2025 Comstex. All rights reserved.</p>
-      <p>Am Wall 22, 14979 Grossbeeren, Germany | +49 30 2325 8 230</p>
+      <div class="footer-section">
+        <h4>Comstex GmbH</h4>
+        <p>Am Wall 22, 14979 Grossbeeren, Germany</p>
+        <p>Phone: +49 30 2325 8 230</p>
+        <p>Email: <a href="mailto:info@comstex.com">info@comstex.com</a></p>
+        <p>Fax: +49 30 2325 8 2313</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cisco.html">Cisco</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </div>
     </div>
+    <p class="footer-bottom">&copy; 2025 Comstex GmbH. All rights reserved.</p>
   </footer>
 </body>
 </html>
