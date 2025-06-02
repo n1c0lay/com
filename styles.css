@@ -32,10 +32,10 @@ header {
   gap: 1rem;
 }
 .logo {
-  height: 75px;
+  height: 100px;
 }
 .logo-small {
-  height: 75px;
+  height: 100px;
 }
 nav ul {
   display: flex;
